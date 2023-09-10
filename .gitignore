@@ -1,0 +1,15 @@
+# build foders
+[Bb]in
+[Bb]uild/
+[Bb]uild-tests
+[Bb]in-tests
+[Ee]xamples
+
+[Tt]ests/*.cpp
+!Tests/.gitignore
+!Tests/Test_sdl.cpp
+
+
+
+
+

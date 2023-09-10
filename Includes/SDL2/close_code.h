@@ -1,0 +1,1 @@
+/home/erich/Documents/SDL_Template/Vendor/SDL/include/close_code.h

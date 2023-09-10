@@ -1,0 +1,6 @@
+[submodule "Vendor/SDL"]
+	path = Vendor/SDL
+	url = git@github.com:libsdl-org/SDL.git
+[submodule "Vendor/googletest"]
+	path = Vendor/googletest
+	url = git@github.com:google/googletest.git
