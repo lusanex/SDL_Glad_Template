@@ -21,7 +21,7 @@ If you're interested in learning how this template was created from scratch, che
 1. **Clone the Repository**:
 ```
 git clone --recursive git@github.com:lusanex/SDL_Glad_Template.git
-## or the following command if you forgot the --recursive flag
+# Or use the following command if you forgot the --recursive flag:
 git submodule update --init --recursive
 
 ```
@@ -40,24 +40,21 @@ Sources/main.cpp
 
 4. **Build the Project**:
 ```
-#the script does not install system wide all the binaries recides in the build/bin
-
+# The script does not install system-wide. All the binaries reside in the build/bin directory.
 ./install.sh
 
-#To build the test 
-./install --tests
+# To build the tests:
+./install.sh --tests
 ```
 
 
 5. **Run the project**:
 ```
-#To test everithing is working
+# To test if everything is working:
 ./Build/bin/SdlOpengl
 
-#to run the tests
+# To run the tests:
 ./Build-tests/bin/SdlTests
-
-#
 
 ```
 
