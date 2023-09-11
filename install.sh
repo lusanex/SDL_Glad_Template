@@ -13,7 +13,7 @@ function copy_sdl_include()
     fi
     cd ${SDL_DIR}/include
     for file in *; do
-        if [[ ! -e "${SDL2_INCLUDES_PATH}/$file" ]]; then
+        if [[ ! -L "${SDL2_INCLUDES_PATH}/$file" && ! -e "${SDL2_INCLUDES_PATH}/$file" ]]; then
             ln -s "$(pwd)/$file" "${SDL2_INCLUDES_PATH}"
         fi
     done
